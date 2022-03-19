@@ -162,3 +162,35 @@ html, body{
   width:100%;
   background-color: #000;
 }
+
+
+@media (max-device-width:600px)  {
+
+  #eglenceyi{
+    position: absolute;
+    display: inline-block;
+    color: #1d578a;
+    letter-spacing: 2px;
+    z-index: 10;
+    left: 42%;
+    transform: translateX(-42%);
+    bottom: 20px;
+    font-size: 25px;
+    padding-right: 10%;
+  }
+
+  #kesfet{
+    position: absolute;
+    display: inline-block;
+    color: #1d578a;
+    letter-spacing: 2px;
+    z-index: 10;
+    left: 58%;
+    transform: translateX(-58%);
+    bottom: 20px;
+    font-size: 25px;
+    padding-left: 10%;
+  }
+
+
+}
