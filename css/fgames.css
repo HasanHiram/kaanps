@@ -107,6 +107,9 @@ margin-left: 3%;
   position: relative;
 
 }
+.gmap_canvas{
+  filter:  invert(100%) contrast(100%);
+}
 
 .mapouter{
   display: inline-block;
