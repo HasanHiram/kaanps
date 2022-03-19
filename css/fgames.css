@@ -1,0 +1,217 @@
+html, body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Bebas Neue', cursive;
+  background-color: #000;
+}
+
+.arka_resim{
+  display: inline-block;
+  margin-left: 5%;
+}
+
+#city{
+  display: inline-block;
+  width: 80%;
+}
+
+
+.oyun_listesi{
+  display: inline-block;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 30%;
+  line-height: 40px;
+  margin-left: -10%;
+  margin-top: 10%;
+}
+
+
+
+ .oyun_listesi h2{
+ color: rgb(218, 41, 28);
+ margin: 0px;
+ font-size: 50px;
+}
+
+
+ .oyun_listesi h3{
+   color: #fff;
+  font-size: 40px;
+}
+
+#kiralama{
+  margin-top: 50px;
+}
+
+.kira{
+  float:left;
+  text-align: left;
+}
+
+#kiralama h1{
+  transform: rotate(90deg);
+  color: #fff;
+  font-size: 120px;
+
+}
+
+#kiralama h2{
+color: rgb(218, 41, 28);
+margin: 0px;
+font-size: 50px;
+margin-right: 3%;
+margin-left: 3%;
+}
+
+
+#kiralama h3{
+ color: #fff;
+ font-size: 40px;
+}
+
+#kiralama h4{
+ color: #fff;
+}
+
+#kiralama p{
+  color: #fff;
+}
+
+.kira_yazi{
+  margin-left: 5%;
+  margin-top: 0;
+  margin-right: 50px;
+  line-height: 1rem;
+  display: inline-block;
+}
+
+
+.kira video{
+  width: 20%;
+  object-fit: cover;
+}
+
+
+#kiralama:after{
+  content:"";
+  display:block;
+  clear:both;
+
+}
+
+#iletisim{
+  margin-top: 50px;
+  margin-left: 5%;
+  position: relative;
+
+}
+
+.mapouter{
+  display: inline-block;
+
+}
+
+.iletisim_kismi{
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  left: 60%;
+  top: 0px;
+  font-size: 1.5rem;
+  text-align:left;
+  line-height: 50px;
+}
+
+.iletisim_kismi h1{
+  font-size: 3rem;
+}
+
+
+
+@media only screen and (max-width: 1343px) {
+  .arka_resim{
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 0px;
+    margin-right: : 0px;
+  }
+
+  #city{
+    display:block;
+    width: 100%;
+
+  }
+
+  .oyun_listesi{
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 0px;
+    width: 100%;
+    font-size: 0.5rem;
+    line-height: 20px;
+  }
+
+  .oyun_listesi h2{
+    font-size: 2.5rem;
+  }
+
+  .oyun_listesi h3{
+    line-height: 35px;
+    font-size: 2rem;
+  }
+
+  #kiralama{
+    display:flex;
+    flex-direction: column;
+  }
+
+  #kiralama div:first-child{
+    order:2
+  }
+  #kiralama div:nth-child(2){
+    order:3;
+  }
+  #kiralama div:nth-child(3){
+    order:1;
+  }
+
+  #gifli{
+    width: 100%;
+  }
+  .baslik {
+    margin-top: 10%;
+  }
+  #iletisim{
+    margin-top: 50px;
+    margin-left: 0px;
+    position: relative;
+  }
+  .mapouter{
+    display: block;
+    width: 100% !important;
+  }
+
+
+  .iletisim_kismi{
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    text-align:center;
+    line-height: 30px;
+  }
+
+  .iletisim_kismi h1{
+    font-size: 2rem;
+  }
+
+
+}
